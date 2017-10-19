@@ -1,6 +1,19 @@
+header {
+  position: relative;
+}
+
+button {
+  font-size: 1em;
+}
+
 a#logo {
   font-size: 2em;
   border: 1px solid black;
   border-radius: 5px;
   text-decoration: none;
+}
+
+span#login {
+  position: absolute;
+  right: 5px;
 }

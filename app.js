@@ -17,6 +17,12 @@ app.get('/', (req, res) => {
   })
 })
 
+app.get('/login', (req, res) => {
+  res.render('login', {
+    title: 'Secrets Holder'
+  })
+})
+
 app.listen(port, () => {
   console.log("Listening on " + port);
 })
